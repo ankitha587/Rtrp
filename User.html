@@ -1,0 +1,69 @@
+<html>
+<head>
+  <title>USER DETAILS</title>
+  <style>
+    body {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color: #e09732;
+      padding: 50px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .Container {
+      background-color: #74ea94;
+      padding: 20px 40px;
+      border: 1px solid #aca019;
+      border-radius: 7px;
+      box-shadow: 0 4px 6px rgba(213, 92, 92, 0.1);
+      width: 500px;
+    }
+
+    .Container h2 {
+      margin-bottom: 20px;
+      text-align: center;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0 20px;
+      border: 1px solid #af1481;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      background-color: #8fa3f1;
+      color: rgb(233, 224, 222);
+      padding: 7px;
+      border: none;
+      border-radius: 7px;
+      cursor: pointer;
+      font-size: 20px
+    }
+
+    input[type="submit"]:hover {
+      background-color: #efece9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="Container">
+    <h3>USER DETAILS</h3>
+    <form>
+      <label for="name">USER NAME:</label>
+      <input type="text" id="name" name="name" placeholder=" NAME" required>
+
+      <label for="email">EMAIL:</label>
+      <input type="email" id="email" name="email" placeholder="EMAIL" required>
+
+      <input type="submit" value="submit">
+    </form>
+  </div>
+</body>
+</html>
